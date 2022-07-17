@@ -1,11 +1,11 @@
-var express = require('express');
+var express = require("express");
 var router = express.Router();
-var mongoose = require('mongoose');
+var mongoose = require("mongoose");
 
-const Day = require('../models/day').model;
-const Reservation = require('../models/reservation').model;
+const Day = require("../models/day").model;
+const Reservation = require("../models/reservation").model;
 
-router.post('/', function(req, res, next) {
+router.post("/", function(req, res, next) {
   Day.find({ date: req.body.date }, (err, days) => {
     if (!err) {
       if (days.length > 0) {
@@ -23,14 +23,14 @@ router.post('/', function(req, res, next) {
               if (err) {
                 console.log(err);
               } else {
-                console.log('Reserved');
-                res.status(200).send('Added Reservation');
+                console.log("Reserved");
+                res.status(200).send("Added Reservation");
               }
             });
           }
         });
       } else {
-        console.log('Day not found');
+        console.log("Day not found");
       }
     }
   });
