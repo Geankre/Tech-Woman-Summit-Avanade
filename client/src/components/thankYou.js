@@ -9,7 +9,7 @@ export default _ => {
           <p className="thanks-header">Obrigado!</p>
           <i className="fas fa-assento thank-you-assento"></i>
           <p className="thanks-subtext">
-            Confira o seu email com a confirmação da sua reserva
+            Você receberá em seu e-mail, a confirmação da sua reserva!
           </p>
         </Col>
       </Row>

@@ -49,8 +49,8 @@ const sendMail = async(msg) => {
   };
   
   sendMail({
-    to: 'geankre@hotmail.com',
-    from: 'geankre@hotmail.com',
+    to: 'geankre@gmail.com',
+    from: 'geankre@gmail.com',
     subject: 'Confirmação de cadastro do sistema',
     text: 'Parabéns, você acaba de se registrar no sistema Avanade Flights!'
   });

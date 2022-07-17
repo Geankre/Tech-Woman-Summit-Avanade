@@ -1,3 +1,4 @@
+/* eslint-disable import/no-anonymous-default-export */
 import React, { useState, useEffect } from "react";
 import {
   Row,
@@ -32,7 +33,7 @@ export default props => {
     email: ""
   });
 
-  const [locations] = useState(["Curitiba", "Recife", "São Paulo", "Rio de Janeiro", "Salvador"]);
+  const [locations] = useState(["Curitiba", "Recife", "São Paulo", "Belo Horizonte", "Guarulhos"]);
   const [times] = useState([
     "9AM",
     "10AM",
@@ -140,6 +141,7 @@ export default props => {
     }
   };
 
+
   const selectTable = (table_name, table_id) => {
     setSelection({
       ...selection,
@@ -149,6 +151,7 @@ export default props => {
       }
     });
   };
+
 
   const getSizes = _ => {
     let newSizes = [];
@@ -176,6 +179,7 @@ export default props => {
     return newSizes;
   };
 
+
   const getLocations = _ => {
     let newLocations = [];
     locations.forEach(loc => {
@@ -201,6 +205,7 @@ export default props => {
     return newLocations;
   };
 
+
   const getTimes = _ => {
     let newTimes = [];
     times.forEach(time => {
@@ -225,6 +230,7 @@ export default props => {
     });
     return newTimes;
   };
+
 
   const getTables = _ => {
     console.log("Getting tables");
