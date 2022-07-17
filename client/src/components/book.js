@@ -141,7 +141,6 @@ export default props => {
     }
   };
 
-
   const selectTable = (table_name, table_id) => {
     setSelection({
       ...selection,
@@ -151,7 +150,6 @@ export default props => {
       }
     });
   };
-
 
   const getSizes = _ => {
     let newSizes = [];
@@ -179,7 +177,6 @@ export default props => {
     return newSizes;
   };
 
-
   const getLocations = _ => {
     let newLocations = [];
     locations.forEach(loc => {
@@ -205,7 +202,6 @@ export default props => {
     return newLocations;
   };
 
-
   const getTimes = _ => {
     let newTimes = [];
     times.forEach(time => {
@@ -230,7 +226,6 @@ export default props => {
     });
     return newTimes;
   };
-
 
   const getTables = _ => {
     console.log("Getting tables");
