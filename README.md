@@ -2,7 +2,7 @@
 
 O Tech Woman Summit Avanade é uma semana imersiva para mulheres profissionais de tecnologia que querem evoluir na carreira e conquistar uma nova oportunidade no mercado de trabalho em uma empresa referência global no ecossistema tecnológico.
 
-Neste projeto foi desenvolvido um sistema para reserva de assentos, simulando uma companhia aérea. A aplicação foi desenvolvida em Node.js, ultilizando o banco não relacional MongoDb e o RabbitMQ para mensageria. 
+O projeto desenvolvido consiste em um sistema para reserva de assentos, simulando uma companhia aérea. A aplicação foi desenvolvida em Node.js, ultilizando o banco não relacional MongoDb e o RabbitMQ para mensageria. Também foi implementado um microservice de envio de email com SendGrid para simular envio de comprovação da reserva. Além do back-end foi desenvolvido uma pequena aplicação front-end utilizando o React Native e Bootstrap.
 
 ## Tecnologias necessárias
 ### ✔️ `Node.js`
