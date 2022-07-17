@@ -45,7 +45,7 @@ body {
 }
 .book-table-btn:hover {
   color: #e74c3c;
-  background-color: white !important;
+  background-color: #e74c3c !important;
   border: 2px solid black !important;
 }
 

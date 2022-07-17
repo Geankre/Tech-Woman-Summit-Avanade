@@ -12,14 +12,15 @@ O projeto desenvolvido consiste em um sistema para reserva de assentos, simuland
 ### ✔️ `Bootstrap`
 
 # Comandos úteis
-### 🟠 `npm start`
-### 🟠 `npm test`
-### 🟠 `npm run build`
-### 🟠 `npm install -g react-native-cli`
-### 🟠 `npm install -g expo-cli`
-### 🟠 `npm install --global yarn`
-### 🟠 `npm install -g nodemon`
-### 🟠 `npm install --save-dev nodemon`
-### 🟠 `npm add dotenv`
+
+### ✔️ `npm start`
+### ✔️ `npm test`
+### ✔️ `npm run build`
+### ✔️ `npm install -g react-native-cli`
+### ✔️ `npm install -g expo-cli`
+### ✔️ `npm install --global yarn`
+### ✔️ `npm install -g nodemon`
+### ✔️ `npm install --save-dev nodemon`
+### ✔️ `npm add dotenv`
 
 

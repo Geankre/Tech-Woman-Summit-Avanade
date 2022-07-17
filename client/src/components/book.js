@@ -32,7 +32,7 @@ export default props => {
     email: ""
   });
 
-  const [locations] = useState(["Curitiba", "Recife", "São Paulo", "Belo Horizonte", "Guarulhos"]);
+  const [locations] = useState(["Curitiba", "Recife", "São Paulo", "Rio de Janeiro", "Salvador"]);
   const [times] = useState([
     "9AM",
     "10AM",
